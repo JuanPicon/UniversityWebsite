@@ -89,6 +89,15 @@ aside {
     padding:0 1cm;
 }
 
+aside div {
+    font-weight: bold;
+    text-align: center;
+}
+
+aside h2 {
+    text-align: center;
+}
+
 aside img {
     width: 270px;
 }
@@ -113,11 +122,16 @@ body h1,h3,h4,h5 {
 
 body {
     background-color:rgb(253, 234, 234);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    
 }
 h1 img {
     display: inline-block;
     width: 80px;
     margin-left: 2.1em;
     margin-right: 2.1em;
+}
+main iframe {
+    margin-left: 8em;
 }
