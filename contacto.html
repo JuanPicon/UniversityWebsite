@@ -4,109 +4,127 @@
     <!-- Meta charset -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <!-- Meta author -->
     <meta name="author" content="Juan Pablo Picón Martínez">
-
     <!-- Meta description -->
     <meta name="description" content="Página de servicios de facpya">
-
     <!-- Meta viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <header align="center" style="background-color: rgb(87, 85, 85); color: white;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 60px;">Contactanos</header>
+    <link rel="stylesheet" href="css/style1.css">
+
+    <header>
+        <nav id = menu class="menu facpya">
+            <ul class="clrarfix">
+                <li><a href="https://correo.uanl.mx">CONSULTAR CORREO ELECTRÓNICO</a></li>
+                <li><a href="index.html">IR A PÁGINA PRINCIPAL</a></li>
+            </ul>
+        </nav>
+        <br>
+        <h1>CONTACTANOS!</h1>
+        <hr>
+    </header>
     <br>
 </head>
-<body style="font-family: Arial, Helvetica, sans-serif;background-color: rgb(250, 221, 221);">
-    <div align="center">
-        <img width ="550" src="recursos/contacto.jpg" alt="encargado de atencion en facpya">
-    </div>
-    <h1>Horarios de atención</h1>
 
-    <!-- Table -->
-    <table border="1" style="height: 100px; font-size: 20px;background-color:rgb(106, 18, 141);color:white;">
-        <tbody><tr>
-            <th>Turno</th> <th>Lunes</th> <th>Martes</th> <th>Miercoles</th> <th>Jueves</th> <th>Viernes</th> <th>Sábado</th>
-        </tr>
-        <tr>
-            <td>Vespertino</td> <td align ="center" colspan="6">6 a.m. a 11 a.m.</td>
-        </tr>
-        <tr>
-            <td>Matutino</td> <td align ="center" colspan="6">1 p.m. a 5 p.m.</td>
-        </tr>
-    </tbody>
-    </table>
-    <hr>
-    <h2>Número telefónico de atención</h2>
+
+<body>
+    <main>
+        <div>
+            <img width ="550" src="recursos/contacto.jpg" alt="encargado de atencion en facpya">
+        </div>
+        <br>
+        <h3>Horarios de atención</h3>
+        <br>
+        <!-- Table -->
+        <table border="1">
+            <tbody><tr>
+                <th>Turno</th> <th>Lunes</th> <th>Martes</th> <th>Miercoles</th> <th>Jueves</th> <th>Viernes</th> <th>Sábado</th>
+            </tr>
+            <tr>
+                <td>Vespertino</td> <td align ="center" colspan="6">6 a.m. a 11 a.m.</td>
+            </tr>
+            <tr>
+                <td>Matutino</td> <td align ="center" colspan="6">1 p.m. a 5 p.m.</td>
+            </tr>
+        </tbody>
+        </table>
+        <br>
+        <hr>
+        <br>
+
+        <h4>Número telefónico de atención</h4>
+        
+        <!-- entidades html -->
+        <p style="font-size: 30px;"> <span style="font-size: 40px;">&phone;</span> Tel +52 (81) 8329 4080.</p>
+        <hr>
     
-    <!-- entidades html -->
-    <p style="font-size: 30px;"> <span style="font-size: 40px;">&phone;</span> Tel +52 (81) 8329 4080.</p>
-    <hr>
-
-    <h3>Comentarios</h3>
-    <p>Dejanos alguno de tus comentarios o dudas, estos se enviaran a nuestro correo electrónico o bien puedes acudir directamente con el enlace que te direcciona a nuestro corre gmail.</p>
-
-    <article>
-        <!-- Form -->
-        <form action="" method="post">
-            <fieldset>
-                <legend>Cuestionario, (al final la duda o comentario)</legend>
-
-                <div>
-                    <p>¿Es usted alumno de la Facultad de Contaduria Publica y Administración?</p>
-                    <label for="alumno">Si</label>
-                    <input type="radio" name="alumno" id="alumnosi">
-                    <label for="alumno">No</label>
-                    <input type="radio" name="alumno" id="alumnono">
-                </div>
-                <br>
-                <div>
-                    <label for="carreras">Si su respuesta fue si, en que carrera cursa?</label>
-                    <select name="carreras" id="carreras">
-                        <optgroup label="Licenciaturas">
-                            <option value="1">Contador Público</option>
-                            <option value="2">Licenciado en Administración</option>
-                            <option value="3">Licenciado en Negocios Internacionales</option>
-                            <option value="4">Licenciado en Tecnologías de la información</option>
-                        </optgroup>
-                    </select>
-                </div>
-
-                <div>
-                    <p>¿Le fue de utilidad la información vista?</p>
-                    <label for="información">Si</label>
-                    <input type="radio" name="información" id="informaciónsi">
-                    <label for="información">No</label>
-                    <input type="radio" name="información" id="informaciónno">
-                </div>
-                <br>
-                <div align="center">
-                    <p>Comentarios</p>
-                    <label for="comentarios">Escriba aquí</label>
-                    <textarea style="font-size: 15px; background-color: rgb(222, 246, 238);" name="comentarios" id="comentarios" cols="100" rows="10"></textarea>
-                </div>
-                <br>
-
-                <div align="center">
-                    <button style="font-size: 20px;" onClick="alert('Sus datos fueron enviados con éxito.')">Enviar</button>
-                </div>
-            </fieldset>
-        </form>
-    </article>
+        <h5>Comentarios</h5>
+        <p>Dejanos alguno de tus comentarios o dudas, estos se enviaran a nuestro correo electrónico o bien puedes acudir directamente con el enlace que te direcciona a nuestro corre gmail.</p>
+    
+        <article>
+            <!-- Form -->
+            <br>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Cuestionario, (al final la duda o comentario)</legend>
+                    <br>
+                    <div>
+                        <p>¿Es usted alumno de la Facultad de Contaduria Publica y Administración?</p>
+                        <label for="alumno">Si</label>
+                        <input type="radio" name="alumno" id="alumnosi">
+                        <label for="alumno">No</label>
+                        <input type="radio" name="alumno" id="alumnono">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="carreras">Si su respuesta fue si, en que carrera cursa?</label>
+                        <select name="carreras" id="carreras">
+                            <optgroup label="Licenciaturas">
+                                <option value="1">Contador Público</option>
+                                <option value="2">Licenciado en Administración</option>
+                                <option value="3">Licenciado en Negocios Internacionales</option>
+                                <option value="4">Licenciado en Tecnologías de la información</option>
+                            </optgroup>
+                        </select>
+                    </div>
+    
+                    <div>
+                        <p>¿Le fue de utilidad la información vista?</p>
+                        <label for="información">Si</label>
+                        <input type="radio" name="información" id="informaciónsi">
+                        <label for="información">No</label>
+                        <input type="radio" name="información" id="informaciónno">
+                    </div>
+                    <br>
+                    <div>
+                        <p>Comentarios</p>
+                        <label for="comentarios">Escriba aquí</label>
+                        <textarea style="font-size: 15px; background-color: rgb(222, 246, 238);" name="comentarios" id="comentarios" cols="100" rows="10"></textarea>
+                    </div>
+                    <br>
+    
+                    <div>
+                        <button style="font-size: 20px;" onClick="alert('Sus datos fueron enviados con éxito.')">Enviar</button>
+                    </div>
+                    <br>
+                </fieldset>
+            </form>
+            <a href="#menu">Ir arriba</a>
+        </article>
+        <br>
+        <br>
+    </main>
     <br>
 
-    <!-- a -->
-    <div align="center">
-        <a href="https://correo.uanl.mx">Consultar correo electrónico</a>
-    </div>
-    
-    <!-- Link a menú página-->
-    <a href="index.html">Ir a Inicio</a>
-    <br>
-    <hr>
+    <aside>
+        <h2>MÁS INFORMACIÓN</h2>
+        <img src="recursos/telefonos.jpg" alt="telefonos">
+    </aside>
+
     <!-- Footer -->
     <footer>
-        <p style="font-size: smaller;" align ="center">Facultad de Contaduría Pública y Administración de la UANL,derechos reservados. ®</p>
+        <p>Facultad de Contaduría Pública y Administración de la Universidad Autónoma de Nuevo León, derechos reservados. ®</p>
     </footer>
 </body>
 </html>
