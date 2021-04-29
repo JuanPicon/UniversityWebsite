@@ -95,6 +95,8 @@ aside div {
 }
 
 aside h2 {
+    background-color: red;
+    color: white;
     text-align: center;
 }
 
@@ -134,4 +136,13 @@ h1 img {
 }
 main iframe {
     margin-left: 8em;
+}
+
+main div {
+    font-weight: bold;
+    text-align: center;
+}
+main figure {
+    width: 800px;
+    margin-left: 20em;
 }
