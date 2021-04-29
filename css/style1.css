@@ -168,4 +168,8 @@ main table{
     height: 100px;
 }
 
+textarea {
+    font-size: 16px; background-color: rgb(222, 201, 250);
+    font-weight: bold;
+}
 
