@@ -115,3 +115,9 @@ body {
     background-color:rgb(253, 234, 234);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+h1 img {
+    display: inline-block;
+    width: 80px;
+    margin-left: 2.1em;
+    margin-right: 2.1em;
+}
